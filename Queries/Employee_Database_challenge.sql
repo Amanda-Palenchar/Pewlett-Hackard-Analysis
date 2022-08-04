@@ -72,3 +72,12 @@ ON (e.emp_no = ti.emp_no)
 WHERE de.to_date = ('9999-01-01')
 AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no;
+
+-- Deliverable 3
+-- Retrieve the number of employees available to mentor
+SELECT COUNT (title) emp_no,
+	title
+INTO mentee_titles
+FROM menotorship_eligibility
+GROUP BY title
+ORDER BY emp_no DESC;
