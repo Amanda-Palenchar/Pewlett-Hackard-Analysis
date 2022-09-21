@@ -1,7 +1,7 @@
 # Pewlett-Hackard-Analysis
 
 ## Overview of the Analysis
-The purpose of this analysis was to examine the current employee profiles of all employees at Pewlett Hackard. This was done in order understand the demographics of retirement ready or soon-to-be retirement ready employees. This analysis will help the company to prepare to ensure that they have a highly qualified workforce through this wave of retirements.
+The purpose of this analysis was to examine the current employee profiles of all employees at Pewlett Hackard. This was done in order to understand the demographics of retirement ready or soon-to-be retirement ready employees. This analysis will help the company to prepare to ensure that they have a highly qualified workforce through this wave of retirements.
 
 ## Results
 - The first table that was created was filtered for employees of retirement age and the title that they had. However, it was not taken into account that employees may have had multiple job titles at their time at Pewlett Hackard. Retirement age employees have had 133,777 roles throughout their time at Pewlett Hackard. In the next bullet point, the table was filtered using "DISTINCT ON" to get only the current title of retirement age employees. Below is the code for both this bullet point and the next one to showcase the difference. 
